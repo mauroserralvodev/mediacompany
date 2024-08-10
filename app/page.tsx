@@ -19,7 +19,6 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
-
       <header className="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-black text-sm py-3 sm:py-0">
         <nav className="relative max-w-[86rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
           <div className="flex items-center justify-between">
@@ -53,8 +52,6 @@ const App: React.FC = () => {
           </div>
         </nav>
       </header>
-
-
       <main id="content">
         <div className=" bg-gradient-to-t from-blue-600 via-white to-white">
           <div className="mx-auto">
@@ -169,10 +166,7 @@ const App: React.FC = () => {
    </div>
  </div>
 </div>
-
 <Price/>
-
-        
       </main>
       <div>
       <footer className="bg-black inset-x-0 w-full pt-3 px-4 sm:px-6 lg:px-8 mx-auto border-t border-neutral-800">
@@ -189,7 +183,6 @@ const App: React.FC = () => {
           </div>
         </div>
       </footer>
-
       <div className='bg-neutral-900'>
         <div className="inset-x-0 mx-auto pb-4">
           <div className="mx-auto items-center max-w-[85rem]">
