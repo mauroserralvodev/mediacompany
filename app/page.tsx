@@ -24,7 +24,7 @@ const App: React.FC = () => {
         <nav className="relative max-w-[86rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
           <div className="flex items-center justify-between">
             <a href="/" className="cursor-pointer">
-              <img src='/logo3.png' className="lg:w-80 lg:h-14 md:w-40 md:h-10 sm:w-48 sm:h-10 w-44 h-10 py-2" alt="Logo Bencastech" />
+              <img src='/logo3.png' className="lg:w-80 lg:h-12 md:w-40 md:h-10 sm:w-48 sm:h-11 w-44 h-11 py-2" alt="Logo Bencastech" />
             </a>
             <div className="sm:hidden">
               <button
@@ -56,36 +56,63 @@ const App: React.FC = () => {
 
 
       <main id="content">
-        <div className=" bg-gradient-to-t from-blue-600 via-white to-white">
-          <div className="mx-auto">
-            <div className="">
-              <div className="mx-auto px-4 sm:px-6 lg:px-8 pt-24 space-y-8">
-                <div className="max-w-[75rem] text-center mx-auto">
-                  <h1 className="mt-10 block font-bold text-black text-4xl sm:text-6xl md:text-6xl lg:text-6xl">
-                  Gestionamos las <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400'>redes sociales</span> de tu negocio para que te enfoques en lo tuyo.</h1>
-                </div>
-                <div className="max-w-[75rem] text-center mx-auto">
-                  <p className="text-sm sm:text-lg text-gray-400">En Media Company, transformamos la manera en que creas tu presencia digital. Te ayudamos a profesionalizar las redes sociales de tu negocio y maximizar el impacto para atraer a nuevos clientes y aumentar tu presencia online.</p>
-                </div>
-                <div>
+      <div className="bg-gradient-to-t from-blue-600 via-white to-white relative">
+  <div className="mx-auto">
+    <div className="">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 pt-24 space-y-8">
+        <div className="max-w-[75rem] text-center mx-auto relative">
+          {/* Logos flotantes */}
+          <img
+            src="/instagram.webp"
+            alt="Instagram"
+            className="absolute top-[-60px] left-[10%] w-14 h-14 animate-float rotate-6"
+          />
+          <img
+            src="/tiktok.png"
+            alt="TikTok"
+            className="absolute sm:top-[200px] top-[400px] right-[15%] w-16 h-16 animate-float-slow rotate-12"
+          />
+          <img
+            src="/youtube.webp"
+            alt="YouTube"
+            className="absolute sm:top-[300px] top-[400px] left-[30%] w-14 h-14 md:w-16 md:h-16 animate-float-fast -rotate-12"
+          />
+          <img
+            src="/xlogo.webp"
+            alt="X"
+            className="absolute top-[-80px] left-[60%] w-14 h-14 md:w-16 md:h-16 animate-float-fast -rotate-6"
+          />
 
-                <div className="text-center">
-                <a href="/casos-de-exito" className="transition m-1 inline-flex p-4 justify-center items-center gap-x-3 text-center text-white border bg-black hover:bg-blue-600 border-black text-sm font-bold rounded-full">
-                    Casos de Exito
-                  </a>
-                  <a href="/dash" className="transition m-1 inline-flex p-4 justify-center items-center gap-x-3 text-center text-black border bg-white hover:bg-gray-300 hover:text-black border-black text-sm font-bold rounded-full">
-                    Contactar Ahora
-                    <svg className="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
-                  </a>
-                </div>
-                </div>
-              </div>
-              <div className="w-full mt-24 flex justify-center items-center">
-                <img className="lg:max-w-5xl md:max-w-5xl sm:max-w-2xl" src="/mockup.png" alt="Mockup Bencastech" />
-              </div>
-            </div>
+          <h1 className="mt-20 block font-bold text-black text-4xl sm:text-6xl md:text-6xl lg:text-6xl">
+            Gestionamos las <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">redes sociales</span> de tu negocio para que te enfoques en lo tuyo.
+          </h1>
+        </div>
+        <div className="max-w-[75rem] text-center mx-auto">
+          <p className="text-sm sm:text-lg text-gray-400">
+            En Media Company, transformamos la manera en que creas tu presencia digital. Te ayudamos a profesionalizar las redes sociales de tu negocio y maximizar el impacto para atraer a nuevos clientes y aumentar tu presencia online.
+          </p>
+        </div>
+        <div>
+          <div className="text-center">
+            <a href="/casos-de-exito" className="transition m-1 inline-flex p-4 justify-center items-center gap-x-3 text-center text-white border bg-black hover:bg-blue-600 border-black text-sm font-bold rounded-full">
+              Casos de Éxito
+            </a>
+            <a href="/dash" className="transition m-1 inline-flex p-4 justify-center items-center gap-x-3 text-center text-black border bg-white hover:bg-gray-300 hover:text-black border-black text-sm font-bold rounded-full">
+              Contactar Ahora
+              <svg className="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </a>
           </div>
         </div>
+      </div>
+      <div className="w-full mt-24 flex justify-center items-center">
+        <img className="lg:max-w-5xl md:max-w-5xl sm:max-w-2xl" src="/mockup.png" alt="Mockup Bencastech" />
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 
