@@ -8,6 +8,7 @@ import Branding from '@/components/branding';
 import Gestion from '@/components/gestion';
 import Hero from '@/components/hero';
 import Web from '@/components/web';
+import Form from '../components/form';
 
 
 const App: React.FC = () => {
@@ -62,6 +63,7 @@ const App: React.FC = () => {
    <Gestion/>
    <Branding/>
    <Price/>
+   <Form/>
 </main>
  <Footer/>
 </div>

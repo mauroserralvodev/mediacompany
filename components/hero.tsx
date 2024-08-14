@@ -40,10 +40,10 @@ const Hero
         </div>
         <div>
           <div className="text-center">
-            <a href="/casos-de-exito" className="transition m-1 inline-flex p-4 justify-center items-center gap-x-3 text-center text-white border bg-black hover:bg-blue-600 border-black text-sm font-bold rounded-full">
+            <a href="/casos-de-exito" className="transition m-1 inline-flex p-4 justify-center items-center gap-x-3 text-center text-white border bg-black hover:bg-blue-600 hover:border-blue-600 border-black text-sm font-bold rounded-full">
               Casos de Éxito
             </a>
-            <a href="/dash" className="transition m-1 inline-flex p-4 justify-center items-center gap-x-3 text-center text-black border bg-white hover:bg-gray-300 hover:text-black border-black hover:border-blue-600 text-sm font-bold rounded-full">
+            <a href="/dash" className="transition m-1 inline-flex p-4 justify-center items-center gap-x-3 text-center text-black border bg-white hover:bg-gray-300 hover:text-black border-black text-sm font-bold rounded-full">
               Contactar Ahora
               <svg className="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="m9 18 6-6-6-6" />
