@@ -2,16 +2,21 @@ import React from 'react'
 
 const Price = () => {
   return (
- <div className='mx-auto px-5 max-w-5xl py-20'>
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
-     <h2 className="sm:text-5xl text-black text-3xl my-24 font-bold">Nuestros Precios</h2>
+ <div className='mx-auto px-5 max-w-5xl py-20 mb-14'>
+    <div className="mx-auto max-w-[85rem]">
+     <h2 className="sm:text-5xl text-black text-3xl mt-14 mb-2 font-bold">La imagen y reputación de tu empresa no tienen precio... o si</h2>
+     <p className='text-black mb-14'>Contactanos sin compromiso ahora y aumenta los ingresos y la presencia en redes de tu negocio, ofrecemos servicios excelentes a precios competitivos.</p>
+
    </div>
-    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:items-center">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:items-center mt-24">
         
       <div className="flex flex-col border-2 border-blue-600 text-center shadow-xl rounded-xl p-8 dark:border-blue-700 bg-black">
         <p className="mb-3"><span className="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xs uppercase font-semibold bg-blue-100 text-blue-800 dark:bg-blue-600 dark:text-white">Most popular</span></p>
-        <h4 className="font-medium text-lg text-gray-800 dark:text-neutral-200">Gestion RRSS</h4>
-        <span className="mt-5 font-bold text-5xl text-gray-800 dark:text-neutral-200">
+        <h4 className="font-medium text-lg text-neutral-200">Gestion RRSS</h4>
+        <span className=" font-bold text-5xl text-neutral-200">
+        <span className=" font-bold text-5xl text-neutral-200">
+          <del className='text-red-500 text-2xl'>120</del><span className="font-bold text-2xl text-red-500">€</span>
+        </span>
           80
           <span className="font-bold text-2xl -me-2">€</span>
         </span>
@@ -24,7 +29,6 @@ const Price = () => {
               Instagram
             </span>
           </li>
-  
           <li className="flex gap-x-2">
             <svg className="shrink-0 mt-0.5 size-4 text-blue-600 dark:text-blue-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
             <span className="text-gray-800 dark:text-neutral-400">
@@ -116,7 +120,6 @@ const Price = () => {
         Contactar Ahora
         </a>
       </div>
-     
     </div>
 </div>
   )
