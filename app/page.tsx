@@ -59,10 +59,10 @@ const App: React.FC = () => {
       <div className="bg-gradient-to-t from-blue-600 via-white to-white relative">
   <div className="mx-auto">
     <div className="">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 pt-24 space-y-8">
+      <div className="mx-auto px-4 sm:ssssspx-6 lg:px-8 pt-24 space-y-8">
         <div className="max-w-[75rem] text-center mx-auto relative">
           <img
-            src="/instagram.webp"
+            src="/instagramlo.webp"
             alt="Instagram"
             className="absolute top-[-60px] left-[10%] w-14 h-14 animate-float rotate-6"
           />
