@@ -61,7 +61,6 @@ const App: React.FC = () => {
     <div className="">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 pt-24 space-y-8">
         <div className="max-w-[75rem] text-center mx-auto relative">
-          {/* Logos flotantes */}
           <img
             src="/instagram.webp"
             alt="Instagram"
