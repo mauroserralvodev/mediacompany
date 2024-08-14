@@ -24,7 +24,7 @@ const App: React.FC = () => {
         <nav className="relative max-w-[86rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
           <div className="flex items-center justify-between">
             <a href="/" className="cursor-pointer">
-              <img src='/logo3.png' className="lg:w-80 lg:h-12 md:w-40 md:h-10 sm:w-48 sm:h-11 w-44 h-11 py-2" alt="Logo Bencastech" />
+              <img src='/logo3.png' className="lg:w-80 lg:h-14 md:w-40 md:h-10 sm:w-48 sm:h-11 w-44 h-11 py-2" alt="Logo Bencastech" />
             </a>
             <div className="sm:hidden">
               <button
