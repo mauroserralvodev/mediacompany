@@ -11,11 +11,11 @@ const Price = () => {
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:items-center mt-24">
         
       <div className="flex flex-col border-2 text-center shadow-xl rounded-xl p-8 border-blue-700 bg-black">
-        <p className="mb-3"><span className="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xs uppercase font-semibold  bg-blue-600 text-white">Most popular</span></p>
+        <p className="mb-3"><span className="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xs uppercase font-semibold  bg-blue-600 text-white">Más popular</span></p>
         <h4 className="font-medium text-lg text-neutral-200">Gestion RRSS</h4>
         <span className=" font-bold text-5xl text-neutral-200">
         <span className=" font-bold text-5xl text-neutral-200">
-          <del className='text-red-500 text-2xl'>120</del><span className="font-bold text-2xl text-red-500">€</span>
+          <del className='text-neutral-600 text-2xl'>120</del><span className="font-bold text-2xl text-neutral-600">€</span>
         </span>
           80
           <span className="font-bold text-2xl -me-2">€</span>
@@ -44,8 +44,8 @@ const Price = () => {
           </li>
         </ul>
   
-        <a className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
-        Contactar Ahora
+        <a className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border bg-blue-600 shadow-sm disabled:opacity-50 disabled:pointer-events-none focus:outline-none border-neutral-700 text-white hover:bg-neutral-800 hover:text-white" href="#">
+          Contactar Ahora
         </a>
       </div>
     
@@ -80,7 +80,7 @@ const Price = () => {
           </li>
         </ul>
   
-        <a className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border bg-white shadow-sm disabled:opacity-50 disabled:pointer-events-none focus:outline-none bg-transparent border-neutral-700 text-neutral-300 hover:bg-neutral-800 focus:bg-neutral-800" href="#">
+        <a className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border bg-white shadow-sm disabled:opacity-50 disabled:pointer-events-none focus:outline-none bg-transparent border-neutral-700 text-gray-500 hover:bg-neutral-800 hover:text-white focus:bg-neutral-800" href="#">
           Contactar Ahora
         </a>
       </div>
@@ -116,8 +116,8 @@ const Price = () => {
           </li>
         </ul>
   
-        <a className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border  bg-white  shadow-sm disabled:opacity-50 disabled:pointer-events-none focus:outline-none bg-transparent border-neutral-700 text-neutral-300 hover:bg-neutral-800 focus:bg-neutral-800" href="#">
-        Contactar Ahora
+        <a className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border bg-white shadow-sm disabled:opacity-50 disabled:pointer-events-none focus:outline-none bg-transparent border-neutral-700 text-gray-500 hover:bg-neutral-800 hover:text-white focus:bg-neutral-800" href="#">
+          Contactar Ahora
         </a>
       </div>
     </div>
