@@ -8,11 +8,11 @@ import Branding from '@/components/branding';
 import Gestion from '@/components/gestion';
 import Hero from '@/components/hero';
 import Web from '@/components/web';
-import Form from '../components/form';
-
+import ContactModal from '@/components/ContactModal'; // Asegúrate de que la ruta es correcta
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false); // Estado para el modal
   const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
@@ -22,6 +22,14 @@ const App: React.FC = () => {
   if (!isHydrated) {
     return null;
   }
+
+  const handleModalOpen = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleModalClose = () => {
+    setIsModalOpen(false);
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -53,20 +61,23 @@ const App: React.FC = () => {
           </div>
           <div id="navbar-collapse-with-animation" className={`${isMenuOpen ? 'block' : 'hidden'} hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block`}>
             <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
-              <a href="/dash" className="transition font-bold p-3 px-4 text-center bg-white rounded-full text-black hover:text-white hover:bg-blue-500 sm:my-6">Contactar Ahora</a>
+              <button onClick={handleModalOpen} className="transition font-bold p-3 px-4 text-center bg-white rounded-full text-black hover:text-white hover:bg-blue-500 sm:my-6">
+                Contactar Ahora
+              </button>
             </div>
           </div>
         </nav>
       </header>
-<main id="content">
-   <Hero/>
-   <Gestion/>
-   <Branding/>
-   <Price/>
-   <Form/>
-</main>
- <Footer/>
-</div>
+      <main id="content">
+        <Hero />
+        <Gestion />
+        <Branding />
+        <Price />
+      </main>
+      <Footer />
+      {/* Renderiza el modal */}
+      <ContactModal isOpen={isModalOpen} onClose={handleModalClose} />
+    </div>
   );
 }
 
