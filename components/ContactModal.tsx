@@ -30,6 +30,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
             <textarea name="message" id="message" rows={4} required className="text-black w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none" />
           </div>
           <input type="hidden" name="_next" value="https://mediacompany.vercel.app/form"/>
+          <input type="hidden" name="_captcha" value="false"/>
           <button type="submit" className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors duration-300">Enviar</button>
         </form>
         </div>
