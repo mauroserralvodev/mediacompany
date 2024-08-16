@@ -1,18 +1,16 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Head from 'next/head';
 import Price from '../components/price';
 import Footer from '@/components/footer';
 import Branding from '@/components/branding';
 import Gestion from '@/components/gestion';
 import Hero from '@/components/hero';
-import Web from '@/components/web';
-import ContactModal from '@/components/ContactModal'; // Asegúrate de que la ruta es correcta
+import ContactModal from '@/components/ContactModal'; 
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isModalOpen, setIsModalOpen] = useState(false); // Estado para el modal
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
@@ -75,7 +73,6 @@ const App: React.FC = () => {
         <Price />
       </main>
       <Footer />
-      {/* Renderiza el modal */}
       <ContactModal isOpen={isModalOpen} onClose={handleModalClose} />
     </div>
   );

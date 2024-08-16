@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ContactModal from './ContactModal'; // Importa el modal
+import ContactModal from './ContactModal';
 
 const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -67,8 +67,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-      {/* Renderiza el modal */}
       <ContactModal isOpen={isModalOpen} onClose={handleModalClose} />
     </div>
   );

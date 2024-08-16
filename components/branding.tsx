@@ -1,7 +1,7 @@
-// components/Branding.tsx
+
 
 import React, { useState } from 'react';
-import ContactModal from '@/components/ContactModal'; // Asegúrate de que la ruta es correcta
+import ContactModal from '@/components/ContactModal';
 
 const Branding = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -40,8 +40,6 @@ const Branding = () => {
           </div>
         </div>
       </section>
-
-      {/* Renderiza el modal */}
       <ContactModal isOpen={isModalOpen} onClose={handleModalClose} />
     </div>
   );
