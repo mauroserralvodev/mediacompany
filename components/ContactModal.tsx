@@ -31,7 +31,9 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
           </div>
           <input type="hidden" name="_next" value="https://mediacompany.vercel.app/form"/>
           <input type="hidden" name="_captcha" value="false"/>
-          <button type="submit" className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors duration-300">Enviar</button>
+          <button type="submit" className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors duration-300">
+            Enviar
+          </button>
         </form>
         </div>
       </div>
