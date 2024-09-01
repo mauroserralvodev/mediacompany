@@ -17,13 +17,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className='bg-black'>
-        <div className="inset-x-0 mx-auto pb-4">
-          <div className="mx-auto items-center max-w-[85rem]">
-            <p className='text-white text-sm max-w-[85rem] p-4'>En Media Company, nos dedicamos a ofrecer servicios especializados para la gestión de redes sociales y marca. No garantizamos resultados específicos, ya que estos pueden variar según diversos factores. No asumimos ninguna responsabilidad por eventuales contratiempos, perjuicios o dificultades que pudieran emerger para tu empresa como resultado del contenido que se publique bajo nuestra gestión. Para cualquier duda o consulta, por favor contacta a nuestro equipo de soporte a través del correo electrónico: soporte@mediacompany.es.</p>
-          </div>
-        </div>
-      </div>
+      
     </div>
   )
 }

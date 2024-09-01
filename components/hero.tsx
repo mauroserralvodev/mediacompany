@@ -31,7 +31,7 @@ const Hero = () => {
               <img
                 src="/youtube.webp"
                 alt="YouTube"
-                className="absolute sm:top-[300px] top-[400px] left-[30%] w-14 h-14 md:w-16 md:h-16 animate-float-fast -rotate-12"
+                className="absolute sm:top-[300px] top-[400px] left-[30%] w-14 h-14 md:w-16 md:h-16 animate-float-fast -rotate-12 bg-white rounded-lg"
               />
               <img
                 src="/xlogo.webp"
