@@ -83,8 +83,8 @@ const Price = () => {
           <div className="flex flex-col border text-center rounded-xl p-8 border-neutral-800 bg-black">
             <h4 className="font-medium text-lg text-neutral-200">Campaña Marketing</h4>
             <span className="mt-5 font-bold text-5xl text-neutral-200">
-              2000
-              <span className="font-bold text-2xl -me-2">€</span>
+              N/A
+              <span className="font-bold text-2xl -me-2"></span>
             </span>
             <p className="mt-2 text-sm text-neutral-500">Lleva tu marca al siguiente nivel visualmente.</p>
             <ul className="mt-7 space-y-2.5 text-sm">

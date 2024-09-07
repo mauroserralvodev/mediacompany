@@ -13,7 +13,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-gradient-to-t from-blue-600 via-white to-white relative">
+    <div className="bg-gradient-to-t from-blue-600 via-black to-black relative">
       <div className="mx-auto">
         <div className="">
           <div className="mx-auto px-4 sm:px-6 lg:px-8 pt-24 space-y-8">
@@ -34,12 +34,12 @@ const Hero = () => {
                 className="absolute sm:top-[300px] top-[400px] left-[30%] w-14 h-14 md:w-16 md:h-16 animate-float-fast -rotate-12 bg-white rounded-lg"
               />
               <img
-                src="/xlogo.webp"
+                src="/xlogo2.png"
                 alt="X"
-                className="absolute top-[-80px] left-[60%] w-14 h-14 md:w-16 md:h-16 animate-float-fast -rotate-6"
+                className="absolute top-[-80px] left-[60%] border-2 border-white rounded-lg w-14 h-14 md:w-16 md:h-16 animate-float-fast -rotate-6"
               />
 
-              <h1 className="mt-20 block font-bold text-black text-4xl sm:text-6xl md:text-6xl lg:text-6xl">
+              <h1 className="mt-20 block font-bold text-white text-4xl sm:text-6xl md:text-6xl lg:text-6xl">
                 Gestionamos las <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">redes sociales</span> de tu negocio para que te enfoques en lo tuyo.
               </h1>
             </div>
@@ -50,7 +50,7 @@ const Hero = () => {
             </div>
             <div>
               <div className="text-center">
-                <a href="/casos-de-exito" className="transition m-1 inline-flex p-4 justify-center items-center gap-x-3 text-center text-white border bg-black hover:bg-blue-600 hover:border-blue-600 border-black text-sm font-bold rounded-full">
+                <a href="/casos-de-exito" className="transition m-1 inline-flex p-4 justify-center items-center gap-x-3 text-center text-white border border-white bg-black hover:bg-blue-600 hover:border-blue-600 text-sm font-bold rounded-full">
                   Casos de Éxito
                 </a>
                 <button onClick={handleModalOpen} className="transition m-1 inline-flex p-4 justify-center items-center gap-x-3 text-center text-black border bg-white hover:bg-gray-300 hover:text-black border-black text-sm font-bold rounded-full">
@@ -63,7 +63,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="w-full mt-24 flex justify-center items-center">
-            <img className="lg:max-w-5xl md:max-w-5xl sm:max-w-2xl" src="/mockup.png" alt="Mockup Bencastech" />
+            <img className="lg:max-w-5xl md:max-w-5xl sm:max-w-2xl" src="/mockup2.png" alt="Mockup Bencastech" />
           </div>
         </div>
       </div>
