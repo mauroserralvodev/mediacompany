@@ -31,8 +31,8 @@ const Price = () => {
             </p>
             <h4 className="font-medium text-lg text-neutral-200">Gestión RRSS</h4>
             <span className="font-bold text-5xl text-neutral-200">
-              <del className='text-neutral-600 text-2xl'>120€</del>
-              80<span className="font-bold text-2xl -me-2">€</span>
+              <del className='text-neutral-600 text-2xl'>200€</del>
+              165<span className="font-bold text-2xl -me-2">€</span>
             </span>
             <p className="mt-2 text-sm text-neutral-500">Todo lo que necesitas para tener presencia en redes.</p>
             <ul className="mt-7 space-y-2.5 text-sm">
@@ -42,7 +42,7 @@ const Price = () => {
               </li>
               <li className="flex gap-x-2">
                 <svg className="shrink-0 mt-0.5 size-4 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span className="text-neutral-400">YouTube</span>
+                <span className="text-neutral-400">Tiktok</span>
               </li>
               <li className="flex gap-x-2">
                 <svg className="shrink-0 mt-0.5 size-4 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
@@ -57,7 +57,7 @@ const Price = () => {
           <div className="flex flex-col border text-center rounded-xl p-8 border-neutral-800 bg-black">
             <h4 className="font-medium text-lg text-neutral-200">Re-Branding</h4>
             <span className="mt-5 font-bold text-5xl text-neutral-200">
-              160
+              679
               <span className="font-bold text-2xl -me-2">€</span>
             </span>
             <p className="mt-2 text-sm text-neutral-500">Una actualización a la imagen de tu empresa.</p>
@@ -83,7 +83,7 @@ const Price = () => {
           <div className="flex flex-col border text-center rounded-xl p-8 border-neutral-800 bg-black">
             <h4 className="font-medium text-lg text-neutral-200">Campaña Marketing</h4>
             <span className="mt-5 font-bold text-5xl text-neutral-200">
-              200
+              2000
               <span className="font-bold text-2xl -me-2">€</span>
             </span>
             <p className="mt-2 text-sm text-neutral-500">Lleva tu marca al siguiente nivel visualmente.</p>
