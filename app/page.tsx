@@ -70,7 +70,9 @@ const App: React.FC = () => {
         <Hero />
         <Gestion />
         <Branding />
-        <Price />
+        <section id='precio'>
+           <Price />
+        </section>
       </main>
       <Footer />
       <ContactModal isOpen={isModalOpen} onClose={handleModalClose} />
