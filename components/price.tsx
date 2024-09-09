@@ -81,9 +81,9 @@ const Price = () => {
           </div>
 
           <div className="flex flex-col border text-center rounded-xl p-8 border-neutral-800 bg-black">
-            <h4 className="font-medium text-lg text-neutral-200">Campaña Marketing</h4>
-            <span className="mt-5 font-bold text-5xl text-neutral-200">
-              N/A
+            <h4 className="font-medium text-lg text-neutral-200">Filmación Eventos</h4>
+            <span className="mt-8 font-bold text-4xl text-neutral-200">
+              Consultar
               <span className="font-bold text-2xl -me-2"></span>
             </span>
             <p className="mt-2 text-sm text-neutral-500">Lleva tu marca al siguiente nivel visualmente.</p>
@@ -105,8 +105,10 @@ const Price = () => {
               Contactar Ahora
             </button>
           </div>
-
         </div>
+          <p className='text-gray-400 text-sm my-14'>
+            *Los precios de servicios recurrentes como la gestión de redes sociales son mensuales y pueden ser modificados con un aviso previo de 30 días.*
+          </p>
         <ContactModal isOpen={isModalOpen} onClose={handleModalClose} />
       </div>
     </div>
