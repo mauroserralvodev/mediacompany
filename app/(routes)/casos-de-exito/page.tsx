@@ -29,7 +29,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gradient-radial from-blue-600 via-blue-900 to-black">
       <header className="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-black text-sm py-3 sm:py-0">
         <nav
           className="relative max-w-[86rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
@@ -101,15 +101,15 @@ const App: React.FC = () => {
         </nav>
       </header>
       <div className='max-w-[85rem] mx-auto mt-24 px-5'>
-        <h1 className='text-black text-6xl font-extrabold '>Nuestros Re-Brandings</h1>
+        <h1 className='text-white text-6xl font-extrabold '>Nuestros Re-Brandings</h1>
         <p></p>
       </div>
 
       <div className='max-w-[85rem] mx-auto mb-12 px-5'>
-        <h1 className='text-black text-3xl'>Casos de Exito</h1>
+        <h1 className='text-white text-3xl'>Casos de Exito</h1>
       </div>
       
-      <div className="max-w-[85rem] mx-auto my-24 bg-white grid grid-cols-1 sm:grid-cols-2 gap-4 px-5 transition">
+      <div className="max-w-[85rem] mx-auto my-24 grid grid-cols-1 sm:grid-cols-2 gap-4 px-5 transition">
 
         
         <div className="relative h-60 flex flex-col bg-[url('/ferlog.png')] bg-cover bg-center bg-no-repeat rounded-2xl transition"></div>
@@ -123,7 +123,6 @@ const App: React.FC = () => {
         <div className="relative h-60 flex flex-col bg-[url('/sanlog.png')] bg-cover bg-center bg-no-repeat rounded-2xl transition"></div>
 
         <div className="relative h-60 flex flex-col bg-[url('/toplog.png')] bg-cover bg-center bg-no-repeat rounded-2xl transition"></div>
-
 
 
       </div>
