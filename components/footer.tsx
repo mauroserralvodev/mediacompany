@@ -10,11 +10,7 @@ const Footer = () => {
           </a>
           <p className="text-sm text-white sm:ml-4 sm:pl-4 text-center sm:border-l-2 border-neutral-600 sm:py-2 sm:mt-0 mt-4">© 2024 Media Company — All rights reserved.
           </p>
-          <div className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
-            <a href='/news' className='mx-2 text-sm text-white font-bold'>News</a>
-            <a href='/pricing' className='mx-2 text-sm text-white font-bold'>Pricing</a>
-            <a href='/terms' className='mx-2 text-sm text-white font-bold'>Terms</a>
-          </div>
+          
         </div>
       </footer>
       

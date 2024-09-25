@@ -42,7 +42,7 @@ const Price = () => {
               </li>
               <li className="flex gap-x-2">
                 <svg className="shrink-0 mt-0.5 size-4 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span className="text-neutral-400">Tiktok</span>
+                <span className="text-neutral-400">Optimizacion SEO en maps</span>
               </li>
               <li className="flex gap-x-2">
                 <svg className="shrink-0 mt-0.5 size-4 text-blue-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
